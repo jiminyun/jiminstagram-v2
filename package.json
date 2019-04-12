@@ -1,0 +1,19 @@
+{
+  "name": "jiminstagram-v2",
+  "version": "1.0.0",
+  "description": "instagram clone with Express + Prisma + React",
+  "main": "index.js",
+  "repository": "https://github.com/jiminyun/jiminstagram-v2",
+  "author": "jiminyun <jiminyun7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.18.11"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
